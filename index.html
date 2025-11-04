@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharma Pro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #007bff, #00bfff);
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      padding: 10px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 25px;
+      background: white;
+      color: #007bff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #0056b3;
+      color: white;
+    }
+
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+      gap: 20px;
+    }
+
+    .card {
+      width: 300px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(255,255,255,0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      font-size: 1em;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.postimg.cc/3wrCcp6h/file-0000000014c0620ca1c34e1f794bd558.png" alt="Pharma Pro Logo" />
+    <h1>Pharma Pro</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Pharma Professionals</h2>
+    <p>Your Gateway to Pharma Careers, Knowledge, and Growth</p>
+    <button>Explore Now</button>
+  </section>
+
+  <section class="sections">
+    <div class="card">
+      <h3>Job Fair</h3>
+      <p>Find top pharmaceutical jobs and connect with industry leaders.</p>
+    </div>
+
+    <div class="card">
+      <h3>Technical Hub</h3>
+      <p>Access resources, SOPs, and technical discussions from experts.</p>
+    </div>
+
+    <div class="card">
+      <h3>Training Zone</h3>
+      <p>Enhance your skills with certified courses and professional sessions.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Pharma Pro | Empowering Pharma Professionals
+  </footer>
+
+</body>
+</html>
